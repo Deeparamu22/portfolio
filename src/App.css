@@ -1,7 +1,20 @@
 .App {
-  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  height: 606vh;
+  background: rgb(254,77,85);
+background: -moz-linear-gradient(171deg, rgba(254,77,85,1) 5%, rgba(216,59,95,1) 75%);
+background: -webkit-linear-gradient(171deg, rgba(254,77,85,1) 5%, rgba(216,59,95,1) 75%);
+background: linear-gradient(171deg, rgba(254,77,85,1) 5%, rgba(216,59,95,1) 75%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe4d55",endColorstr="#d83b5f",GradientType=1);
+display:flex;
+flex-direction: column;
+align-items: center;
 }
-
+html,body{
+  height: 100%;
+  margin: 0%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

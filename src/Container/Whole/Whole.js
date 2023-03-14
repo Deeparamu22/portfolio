@@ -26,7 +26,7 @@ export default function Whole() {
   const all=[{
     pht:'/assests/Screenshot from 2023-03-13 22-04-35.png',
     name:'ToDo Daily',
-    learn:['react','bestproject','fullstatck'],
+    learn:['react','bestproject','fullstatck','api'],
     learnthings:['#react',"#mysql","#Whatsapp API","#Node Connection","#Own desgin"],
     link:'https://github.com/Deeparamu22/todo'
   },{
@@ -91,7 +91,7 @@ export default function Whole() {
     console.log(e.target);
       e.preventDefault();
 
-      emailjs.sendForm('gmail', 'email', e.target, 'yMyQh9CyjcF5AfbC_')
+      emailjs.sendForm('service_bltxgs8', 'template_1b0d65l', e.target, 'bEo07J3nA6L2b23Fl')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
